@@ -1,0 +1,145 @@
+
+/*voltado para telas*/
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    top:100px;
+}
+
+.menu{
+    padding-top:20px;
+    border:1px solid black;
+    
+}
+
+.container>div.left{
+    border: 1px solid black ;
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 2.5%;
+    text-align: center;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.container>div.center{
+    border: 1px solid black ;
+    height: 100px;
+    width: 25%;
+    text-align: center;
+    padding-top: 2.5%;
+    text-align: center;
+}
+
+.container>div.right{
+    border: 1px solid black ;
+    height: 100px;
+    text-align: center;
+    width: 25%;
+    padding-top: 2.5%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container>div.null{
+    border: 1px solid black ;
+    height: 100px;
+    text-align: center;
+    width: 25%;
+    padding-top: 2.5%;
+    border-radius: 10px;
+
+}
+
+.container>div:hover{
+    background-color: rgb(167, 178, 178);
+    cursor: pointer;
+}
+
+/*imagem*/
+section.Imagem{
+    align-items: end;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+section.center{
+    text-align: center;
+}
+
+/*conteudo*/
+.content{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*Navibar*/
+.Navibar{
+    position: fixed;
+    width: 100%;
+    height: 10%;
+    cursor: pointer;
+    background-color: rgb(16, 52, 88);
+}
+
+/*clicaveis*/
+.clicavel{
+    
+    cursor: pointer;
+}
+
+/*listas*/
+ul{
+    list-style-type: none;
+
+}
+
+/*blocos de linha*/
+.blockline{
+    border:1px solid black;
+    margin-left:-35px;
+    text-align:center;
+    font-size:100%;
+    padding:10px
+}
+
+.blockline:hover{
+    background-color: rgb(130, 132, 134);
+    color: azure;
+    cursor: pointer;
+}
+
+/*barra de pesquisa*/
+.search{
+    border:1px solid black;
+    margin-top: -20px;
+    font-size:100%;
+    background-color: rgb(96, 96, 255);
+    padding: 10px;
+}
+
+.search>div>input{
+    border: 1px solid black;
+    border-radius: 100px;
+}
+
+/*teste*/
+.block{
+    height: 250px;
+    width: 170px;
+    flex: 0 0 170px;
+    margin: 40px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+
+.failed{
+    background-color: red ;
+    color: white;
+    border-radius: 10px;
+}
